@@ -1,0 +1,4 @@
+Minimul este : 1.5
+Maximul este : 11.8
+Suma este : 15.6
+Media este : 5.2
