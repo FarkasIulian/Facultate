@@ -1,0 +1,5 @@
+Salut 1 2 
+Ce faci? 2 3*
+Cum o duci? 3 4*
+Bine 1 2 
+Tu? 1 1*
