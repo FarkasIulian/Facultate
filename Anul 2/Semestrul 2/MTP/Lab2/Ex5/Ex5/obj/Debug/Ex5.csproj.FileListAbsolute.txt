@@ -1,0 +1,11 @@
+E:\C\Ex5\Ex5\bin\Debug\Ex5.exe.config
+E:\C\Ex5\Ex5\bin\Debug\Ex5.exe
+E:\C\Ex5\Ex5\bin\Debug\Ex5.pdb
+E:\C\Ex5\Ex5\obj\Debug\Ex5.csproj.AssemblyReference.cache
+E:\C\Ex5\Ex5\obj\Debug\Ex5.csproj.SuggestedBindingRedirects.cache
+E:\C\Ex5\Ex5\obj\Debug\Ex5.Form1.resources
+E:\C\Ex5\Ex5\obj\Debug\Ex5.Properties.Resources.resources
+E:\C\Ex5\Ex5\obj\Debug\Ex5.csproj.GenerateResource.cache
+E:\C\Ex5\Ex5\obj\Debug\Ex5.csproj.CoreCompileInputs.cache
+E:\C\Ex5\Ex5\obj\Debug\Ex5.exe
+E:\C\Ex5\Ex5\obj\Debug\Ex5.pdb
