@@ -29,11 +29,22 @@ namespace WindowsFormsApp1
                 Button b = new Button();            
                 b.Text = btn.clicks.ToString();
                 b.Width = 700;
-                b.BackColor = ColorTranslator.FromHtml("#" + btn.color);
+                if (Form1.getRandom())
+                    b.BackColor = ColorTranslator.FromHtml("#" + btn.color);
+                else
+                    b.BackColor = Color.FromName(btn.color);
                 flowLayoutPanel1.Controls.Add(b);
-
+                b.Click += B_Click;
 
             }
+        }
+
+        private void B_Click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+            int i = int.Parse(btn.Text);
+            i++;
+            btn.Text = i.ToString();
         }
 
         private void btnClose_Click(object sender, EventArgs e)

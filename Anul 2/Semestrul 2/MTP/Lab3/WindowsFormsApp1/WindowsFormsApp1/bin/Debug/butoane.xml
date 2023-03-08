@@ -2,42 +2,42 @@
 <ArrayOfButon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Buton>
     <clicks>0</clicks>
-    <color>ffc75540</color>
+    <color>Red</color>
   </Buton>
   <Buton>
     <clicks>0</clicks>
-    <color>ff8b9ee9</color>
+    <color>Blue</color>
   </Buton>
   <Buton>
     <clicks>0</clicks>
-    <color>ff5692b3</color>
+    <color>DarkBlue</color>
   </Buton>
   <Buton>
     <clicks>0</clicks>
-    <color>ffc8aa73</color>
+    <color>Green</color>
   </Buton>
   <Buton>
     <clicks>0</clicks>
-    <color>ff2e3467</color>
+    <color>LightGreen</color>
   </Buton>
   <Buton>
     <clicks>0</clicks>
-    <color>ffccc748</color>
+    <color>Control</color>
   </Buton>
   <Buton>
     <clicks>0</clicks>
-    <color>ffdfce7a</color>
+    <color>Control</color>
   </Buton>
   <Buton>
     <clicks>0</clicks>
-    <color>ff66b526</color>
+    <color>Control</color>
   </Buton>
   <Buton>
     <clicks>0</clicks>
-    <color>ff2de4fa</color>
+    <color>Control</color>
   </Buton>
   <Buton>
     <clicks>0</clicks>
-    <color>fff7b3f0</color>
+    <color>Control</color>
   </Buton>
 </ArrayOfButon>

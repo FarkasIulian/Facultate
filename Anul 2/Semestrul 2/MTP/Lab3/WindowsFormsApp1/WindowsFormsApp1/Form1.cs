@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,24 +15,26 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+
         List<Buton> B1 = new List<Buton>();
+        static bool random = false;
         public Form1()
         {
             InitializeComponent();
-            Random rnd = new Random();
-            for (int i = 0; i < 10; i++)
-            {
-                Color randomColor = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
-                Button btn = new Button();
-                btn.Text = "0";
-                btn.Tag = i;
-                btn.Width = 700;
-                flowLayoutPanel1.Controls.Add(btn);
-                btn.BackColor = randomColor;
-                B1.Add(new Buton() { clicks = 0, color = randomColor.Name.ToString()});
-                btn.Click += Btn_Click;
-            }
         }
+
+        public void generateButton(int tag,Color colors)
+        {
+            Button btn = new Button();
+            btn.Text = "0";
+            btn.Tag = tag;
+            btn.Width = 650;
+            flowLayoutPanel1.Controls.Add(btn);
+            btn.BackColor = colors;
+            B1.Add(new Buton() { clicks = 0, color = colors.Name });
+            btn.Click += Btn_Click;
+        }
+
 
         private void Btn_Click(object sender, EventArgs e)
         {
@@ -58,6 +61,59 @@ namespace WindowsFormsApp1
         {
             Form f = new Form2();
             f.ShowDialog();
+        }
+
+        private void btnChoose_Click(object sender, EventArgs e)
+        {
+            string color = string.Empty;
+            color = Interaction.InputBox("Write 10 colors ( separated by , ) for each button.\nNOTE: if you enter less than 10 colors" +
+                ", the ones that you don't fill in will have the default color!" +
+                "\nIf left blank buttons will be default color.","Choose Colors"," ");
+            String[] culori = color.Split(',');
+            Color []c = new Color[10];
+            for(int i = 0; i < culori.Length; i++)        
+                culori[i] = char.ToUpper(culori[i].ElementAt(0)) + culori[i].Substring(1);
+            if (culori.Length > 10)
+            {
+                MessageBox.Show("Prea multe culori", "Eroare", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            if (culori.Length == 0)
+            {
+                for (int i = 0; i < 10; i++)
+                    c[i] = SystemColors.Control;
+            }
+            else
+            {
+                for (int i = 0; i < culori.Length; i++)
+                    c[i] = Color.FromName(culori[i]);
+                if (culori.Length != 10)
+                    for (int i = culori.Length; i < 10; i++)
+                        c[i] = SystemColors.Control;
+            }
+            for(int i = 0;i<10;i++)
+                generateButton(i,c[i]);
+            Controls.Remove(btnChoose);
+            Controls.Remove(btnRandom);
+
+
+        }
+        private void btnRandom_Click(object sender, EventArgs e)
+        {
+            Random rnd = new Random();
+            random = true;
+            for (int i = 0; i < 10; i++)
+            {
+                Color randomColor = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
+                generateButton(i, randomColor);
+            }
+            Controls.Remove(btnChoose);
+            Controls.Remove(btnRandom);
+        }
+
+        public static bool getRandom()
+        {
+            return random;
         }
     }
 }
