@@ -29,9 +29,9 @@ namespace WindowsFormsApp1
                 Button b = new Button();            
                 b.Text = btn.clicks.ToString();
                 b.Width = 700;
-                if (Form1.getRandom())
-                    b.BackColor = ColorTranslator.FromHtml("#" + btn.color);
-                else
+                //if (Form1.getRandom())
+                  //  b.BackColor = ColorTranslator.FromHtml("#" + btn.color);
+                //else
                     b.BackColor = Color.FromName(btn.color);
                 flowLayoutPanel1.Controls.Add(b);
                 b.Click += B_Click;

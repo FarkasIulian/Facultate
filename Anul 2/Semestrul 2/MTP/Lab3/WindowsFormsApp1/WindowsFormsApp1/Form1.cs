@@ -17,7 +17,6 @@ namespace WindowsFormsApp1
     {
 
         List<Buton> B1 = new List<Buton>();
-        static bool random = false;
         public Form1()
         {
             InitializeComponent();
@@ -101,19 +100,15 @@ namespace WindowsFormsApp1
         private void btnRandom_Click(object sender, EventArgs e)
         {
             Random rnd = new Random();
-            random = true;
+            KnownColor[] names =(KnownColor[]) Enum.GetValues(typeof(KnownColor));
             for (int i = 0; i < 10; i++)
             {
-                Color randomColor = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
+                KnownColor randomColorName = names[rnd.Next(names.Length)];
+                Color randomColor = Color.FromKnownColor(randomColorName);
                 generateButton(i, randomColor);
             }
             Controls.Remove(btnChoose);
             Controls.Remove(btnRandom);
-        }
-
-        public static bool getRandom()
-        {
-            return random;
         }
     }
 }

@@ -10,3 +10,15 @@ E:\MTP\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resour
 E:\MTP\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 E:\MTP\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 E:\MTP\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\Iulian\Desktop\New folder (2)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Iulian\Desktop\New folder (2)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Iulian\Desktop\New folder (2)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Iulian\Desktop\New folder (2)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\Iulian\Desktop\New folder (2)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Iulian\Desktop\New folder (2)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Iulian\Desktop\New folder (2)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Iulian\Desktop\New folder (2)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Iulian\Desktop\New folder (2)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Iulian\Desktop\New folder (2)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Iulian\Desktop\New folder (2)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Iulian\Desktop\New folder (2)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
