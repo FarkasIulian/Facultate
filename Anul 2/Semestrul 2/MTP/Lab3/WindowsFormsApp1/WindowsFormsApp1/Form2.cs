@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,12 +19,15 @@ namespace WindowsFormsApp1
         public Form2()
         {
             InitializeComponent();
+            //List<Buton> buttonList = new List<Buton>();
+            //XmlSerializer serial = new XmlSerializer(typeof(List<Buton>));
+            //using (FileStream fs = new FileStream(Environment.CurrentDirectory + "\\butoane.xml", FileMode.Open, FileAccess.Read))
+            //{
+            //    buttonList = serial.Deserialize(fs) as List<Buton>;
+            //}
             List<Buton> buttonList = new List<Buton>();
-            XmlSerializer serial = new XmlSerializer(typeof(List<Buton>));
-            using (FileStream fs = new FileStream(Environment.CurrentDirectory + "\\butoane.xml", FileMode.Open, FileAccess.Read))
-            {
-                buttonList = serial.Deserialize(fs) as List<Buton>;
-            }
+            string json = File.ReadAllText(Environment.CurrentDirectory + "\\butoane.json");
+            buttonList = JsonConvert.DeserializeObject<List<Buton>>(json);
             foreach (Buton btn in buttonList)
             {
                 Button b = new Button();            

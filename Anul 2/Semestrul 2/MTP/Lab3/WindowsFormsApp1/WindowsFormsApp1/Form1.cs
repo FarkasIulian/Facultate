@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualBasic;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -53,7 +54,9 @@ namespace WindowsFormsApp1
             {
                 serial.Serialize(fs, B1);
                 MessageBox.Show("Baza de date creata!");
-            } 
+            }
+            string json = JsonConvert.SerializeObject(B1, Formatting.Indented);
+            File.WriteAllText(Environment.CurrentDirectory + "\\butoane.json", json);
         }
 
         private void btnXML_Click(object sender, EventArgs e)
