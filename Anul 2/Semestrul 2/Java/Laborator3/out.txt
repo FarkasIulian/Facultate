@@ -1,0 +1,4 @@
+Zahar: 
+pret: 1.5, 
+cantitate: 50, 
+data expirarii: 2020-02-25
