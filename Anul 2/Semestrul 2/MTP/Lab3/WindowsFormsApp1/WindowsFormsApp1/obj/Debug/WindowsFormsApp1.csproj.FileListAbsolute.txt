@@ -37,3 +37,6 @@ C:\Users\Iulian\Desktop\New folder (3)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\Win
 C:\Users\Iulian\Desktop\New folder (3)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 C:\Users\Iulian\Desktop\New folder (3)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Iulian\Desktop\New folder (3)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Iulian\Desktop\New folder (2)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Iulian\Desktop\New folder (2)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Iulian\Desktop\New folder (2)\Facultate\Anul 2\Semestrul 2\MTP\Lab3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete

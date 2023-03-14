@@ -15,7 +15,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form2 : Form
     {
-        
+        List<Buton> buttonList = new List<Buton>();
         public Form2()
         {
             InitializeComponent();
@@ -25,7 +25,6 @@ namespace WindowsFormsApp1
             //{
             //    buttonList = serial.Deserialize(fs) as List<Buton>;
             //}
-            List<Buton> buttonList = new List<Buton>();
             string json = File.ReadAllText(Environment.CurrentDirectory + "\\butoane.json");
             buttonList = JsonConvert.DeserializeObject<List<Buton>>(json);
             foreach (Buton btn in buttonList)
@@ -38,22 +37,15 @@ namespace WindowsFormsApp1
                 //else
                     b.BackColor = Color.FromName(btn.color);
                 flowLayoutPanel1.Controls.Add(b);
-                b.Click += B_Click;
 
             }
-        }
-
-        private void B_Click(object sender, EventArgs e)
-        {
-            Button btn = (Button)sender;
-            int i = int.Parse(btn.Text);
-            i++;
-            btn.Text = i.ToString();
         }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
         }
+
+        
     }
 }

@@ -32,18 +32,30 @@ namespace WindowsFormsApp1
             flowLayoutPanel1.Controls.Add(btn);
             btn.BackColor = colors;
             B1.Add(new Buton() { clicks = 0, color = colors.Name });
-            btn.Click += Btn_Click;
+            btn.MouseDown += Btn_MouseDown;
         }
 
-
-        private void Btn_Click(object sender, EventArgs e)
+        private void Btn_MouseDown(object sender, MouseEventArgs e)
         {
             Button btn = (Button)sender;
             int i = int.Parse(btn.Text);
             i++;
             int index = int.Parse(btn.Tag.ToString());
-            B1[index].clicks = i;
-            btn.Text = i.ToString();
+            switch (e.Button)
+            {
+                case MouseButtons.Left:
+                    B1[index].clicks = i;
+                    btn.Text = i.ToString();
+                    break;
+                case MouseButtons.Right:
+                    ColorDialog colorDialog = new ColorDialog();
+                    if (colorDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        btn.BackColor = colorDialog.Color;
+                        B1[index].color = colorDialog.Color.Name.ToString();
+                    }
+                    break;
+            }
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -97,6 +109,7 @@ namespace WindowsFormsApp1
                 generateButton(i,c[i]);
             Controls.Remove(btnChoose);
             Controls.Remove(btnRandom);
+            MessageBox.Show("Right click on any button to chance color!","HINT",MessageBoxButtons.OK,MessageBoxIcon.Information);
 
 
         }
@@ -112,6 +125,8 @@ namespace WindowsFormsApp1
             }
             Controls.Remove(btnChoose);
             Controls.Remove(btnRandom);
+            MessageBox.Show("Right click on any button to chance color!", "HINT", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
         }
     }
 }

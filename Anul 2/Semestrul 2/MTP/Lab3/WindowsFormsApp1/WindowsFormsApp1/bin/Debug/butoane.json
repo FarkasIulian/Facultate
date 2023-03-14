@@ -1,27 +1,15 @@
 [
   {
     "clicks": 0,
-    "color": "DarkRed"
+    "color": "LightCyan"
   },
   {
     "clicks": 0,
-    "color": "SeaShell"
+    "color": "SlateBlue"
   },
   {
     "clicks": 0,
-    "color": "MenuHighlight"
-  },
-  {
-    "clicks": 0,
-    "color": "OliveDrab"
-  },
-  {
-    "clicks": 0,
-    "color": "ControlLight"
-  },
-  {
-    "clicks": 0,
-    "color": "Yellow"
+    "color": "Tan"
   },
   {
     "clicks": 0,
@@ -29,14 +17,26 @@
   },
   {
     "clicks": 0,
-    "color": "ControlDarkDark"
+    "color": "SlateGray"
   },
   {
     "clicks": 0,
-    "color": "Highlight"
+    "color": "DarkGray"
   },
   {
     "clicks": 0,
-    "color": "SteelBlue"
+    "color": "LightCoral"
+  },
+  {
+    "clicks": 0,
+    "color": "HotTrack"
+  },
+  {
+    "clicks": 0,
+    "color": "ff808040"
+  },
+  {
+    "clicks": 0,
+    "color": "Gold"
   }
 ]

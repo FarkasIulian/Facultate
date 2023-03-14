@@ -2,27 +2,15 @@
 <ArrayOfButon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Buton>
     <clicks>0</clicks>
-    <color>DarkRed</color>
+    <color>LightCyan</color>
   </Buton>
   <Buton>
     <clicks>0</clicks>
-    <color>SeaShell</color>
+    <color>SlateBlue</color>
   </Buton>
   <Buton>
     <clicks>0</clicks>
-    <color>MenuHighlight</color>
-  </Buton>
-  <Buton>
-    <clicks>0</clicks>
-    <color>OliveDrab</color>
-  </Buton>
-  <Buton>
-    <clicks>0</clicks>
-    <color>ControlLight</color>
-  </Buton>
-  <Buton>
-    <clicks>0</clicks>
-    <color>Yellow</color>
+    <color>Tan</color>
   </Buton>
   <Buton>
     <clicks>0</clicks>
@@ -30,14 +18,26 @@
   </Buton>
   <Buton>
     <clicks>0</clicks>
-    <color>ControlDarkDark</color>
+    <color>SlateGray</color>
   </Buton>
   <Buton>
     <clicks>0</clicks>
-    <color>Highlight</color>
+    <color>DarkGray</color>
   </Buton>
   <Buton>
     <clicks>0</clicks>
-    <color>SteelBlue</color>
+    <color>LightCoral</color>
+  </Buton>
+  <Buton>
+    <clicks>0</clicks>
+    <color>HotTrack</color>
+  </Buton>
+  <Buton>
+    <clicks>0</clicks>
+    <color>ff808040</color>
+  </Buton>
+  <Buton>
+    <clicks>0</clicks>
+    <color>Gold</color>
   </Buton>
 </ArrayOfButon>
