@@ -1,11 +1,31 @@
 [
   {
     "clicks": 0,
-    "color": "LightCyan"
+    "color": "ffa214de"
   },
   {
     "clicks": 0,
-    "color": "SlateBlue"
+    "color": "Honeydew"
+  },
+  {
+    "clicks": 0,
+    "color": "Wheat"
+  },
+  {
+    "clicks": 0,
+    "color": "SteelBlue"
+  },
+  {
+    "clicks": 0,
+    "color": "ForestGreen"
+  },
+  {
+    "clicks": 0,
+    "color": "ControlLight"
+  },
+  {
+    "clicks": 0,
+    "color": "Window"
   },
   {
     "clicks": 0,
@@ -13,30 +33,10 @@
   },
   {
     "clicks": 0,
-    "color": "LightGoldenrodYellow"
+    "color": "ControlText"
   },
   {
     "clicks": 0,
-    "color": "SlateGray"
-  },
-  {
-    "clicks": 0,
-    "color": "DarkGray"
-  },
-  {
-    "clicks": 0,
-    "color": "LightCoral"
-  },
-  {
-    "clicks": 0,
-    "color": "HotTrack"
-  },
-  {
-    "clicks": 0,
-    "color": "ff808040"
-  },
-  {
-    "clicks": 0,
-    "color": "Gold"
+    "color": "Orange"
   }
 ]
