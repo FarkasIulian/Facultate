@@ -12,6 +12,12 @@
     "salariu": 1234.0
   },
   {
+    "nume": "Calin",
+    "post": "Sef la bani",
+    "data_angajarii": "2022-04-20",
+    "salariu": 15000.0
+  },
+  {
     "nume": "Iulian",
     "post": "Director Programator",
     "data_angajarii": "2022-04-20",
