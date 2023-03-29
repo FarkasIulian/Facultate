@@ -1,0 +1,16 @@
+C:\Facultate\MTP\TemaLab5\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Facultate\MTP\TemaLab5\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Facultate\MTP\TemaLab5\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Facultate\MTP\TemaLab5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Facultate\MTP\TemaLab5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Facultate\MTP\TemaLab5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Facultate\MTP\TemaLab5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Facultate\MTP\TemaLab5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Facultate\MTP\TemaLab5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Facultate\MTP\TemaLab5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Facultate\MTP\TemaLab5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Facultate\MTP\TemaLab5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Facultate\MTP\TemaLab5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Adaugare_pacient.resources
+C:\Facultate\MTP\TemaLab5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Adaugare_consultatie.resources
+C:\Facultate\MTP\TemaLab5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Adaugare_Radiografie.resources
+C:\Facultate\MTP\TemaLab5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Vizualizare_pacient.resources

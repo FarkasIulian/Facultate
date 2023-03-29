@@ -1,0 +1,21 @@
+﻿1
+single
+Cine e George?
+3
+Maimuta
+Rechin 
+Sarpe 
+C:\Users\Iulian\Desktop\george.png
+1
+
+2
+multiple
+Care de mai jos sunt sucuri?
+5
+Coca-Cola
+Fanta
+Apa
+Ceai
+Lapte
+0
+1,2

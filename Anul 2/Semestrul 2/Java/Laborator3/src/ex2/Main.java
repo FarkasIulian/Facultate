@@ -8,14 +8,13 @@ import java.util.List;
 import java.util.Scanner;
 
 import static java.lang.System.exit;
-import static java.lang.System.setOut;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner scan = new Scanner(System.in);
         Scanner fisier = new Scanner(new File("produse.csv"));
         String linie;
-        List<Produs> Produse = new ArrayList<Produs>();
+        List<Produs> Produse = new ArrayList<>();
         int opt;
         while (fisier.hasNextLine()) {
             linie = fisier.nextLine();
