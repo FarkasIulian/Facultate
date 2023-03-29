@@ -1,0 +1,44 @@
+[
+  {
+    "nume": "Ion",
+    "post": "inginer",
+    "data_angajarii": "2023-03-29",
+    "salariu": 2999.0
+  },
+  {
+    "nume": "Matei",
+    "post": "Sef",
+    "data_angajarii": "2022-07-09",
+    "salariu": 1234.0
+  },
+  {
+    "nume": "Calin",
+    "post": "Sef la bani",
+    "data_angajarii": "2022-04-20",
+    "salariu": 15000.0
+  },
+  {
+    "nume": "Iulian",
+    "post": "Director Programator",
+    "data_angajarii": "2022-04-20",
+    "salariu": 10000.0
+  },
+  {
+    "nume": "Iasmina",
+    "post": "Sofer formula 1",
+    "data_angajarii": "2000-01-15",
+    "salariu": 25000.0
+  },
+  {
+    "nume": "Bianca",
+    "post": "Salista",
+    "data_angajarii": "2000-01-15",
+    "salariu": 24999.0
+  },
+  {
+    "nume": "Nicoleta",
+    "post": "Influencer",
+    "data_angajarii": "2005-05-27",
+    "salariu": 44444.0
+  }
+]
